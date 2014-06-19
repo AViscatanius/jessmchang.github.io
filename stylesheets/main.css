@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("fonts/ProximaNova-Regular.otf");
+}
+
+/* line 18, ../sass/main.scss */
+h1 {
+  font-family: "Montserrat";
+  color: #3f3f3f;
+  font-size: 30px;
+  margin: 2px;
+}
+
+/* line 25, ../sass/main.scss */
+h2 {
+  font-family: "Montserrat";
+  color: #9bb6a2;
+  font-size: 19px;
+  margin: 1px;
+}
+
+/* line 32, ../sass/main.scss */
+p {
+  font-family: "Montserrat";
+  color: #949494;
+  font-size: 18px;
+}
+
+/* line 39, ../sass/main.scss */
+#intro {
+  background-color: #f6f4ef;
+  min-height: 100%;
+  width: 100%;
+}
+
+/* line 45, ../sass/main.scss */
+#info {
+  width: 500px;
+  padding-top: 300px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 54, ../sass/main.scss */
+i {
+  font-size: 17px;
+  border-radius: 50%;
+  border: 3px solid #9bb6a2;
+  padding: 10px;
+}
+
+/* line 61, ../sass/main.scss */
+i:hover {
+  background-color: #9bb6a2;
+}

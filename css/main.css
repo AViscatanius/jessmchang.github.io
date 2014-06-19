@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url("../fonts/ProximaNova-Light.otf");
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/ProximaNova-Regular.otf");
+}
+
+/* line 25, ../sass/main.scss */
+h1 {
+  font-family: "Montserrat", "Proxima Nova", "Helvetica Neue", Helvetica, Arial;
+  color: #3f3f3f;
+  font-size: 30px;
+}
+
+/* line 31, ../sass/main.scss */
+h2 {
+  font-family: "Montserrat", "Proxima Nova", "Helvetica Neue", Helvetica, Arial;
+  color: #9bb6a2;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+/* line 38, ../sass/main.scss */
+p {
+  font-family: "ProximaNova-Light", "Helvetica Neue", Helvetica, Arial;
+  color: #949494;
+  font-size: 15px;
+}
+
+/* line 44, ../sass/main.scss */
+i {
+  color: #9bb6a2;
+  font-size: 18px;
+  border-radius: 100%;
+  border: 3px solid #d6d6d6;
+  padding: 6px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 54, ../sass/main.scss */
+i:hover {
+  background-color: #d6d6d6;
+  cursor: pointer;
+}
+
+/* line 59, ../sass/main.scss */
+.delay {
+  -webkit-animation-delay: .2s;
+}
+
+/* line 63, ../sass/main.scss */
+.delay-more {
+  -webkit-animation-delay: 1s;
+}
+
+/* line 67, ../sass/main.scss */
+.heading {
+  padding-bottom: 30px;
+}
+
+/* line 71, ../sass/main.scss */
+#intro {
+  background-color: #f6f4ef;
+  min-height: 100%;
+  width: 100%;
+}
+
+/* line 77, ../sass/main.scss */
+#intro-container {
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 84, ../sass/main.scss */
+#about {
+  background-color: transparent;
+  z-index: 2;
+}
+
+/* line 89, ../sass/main.scss */
+.img-bg {
+  z-index: 1;
+  background: url("../images/congruent_pentagon.png") fixed;
+}
+
+/* line 94, ../sass/main.scss */
+#work {
+  background-color: white;
+}
+/* line 96, ../sass/main.scss */
+#work img {
+  max-height: 70px;
+  padding-bottom: 20px;
+}
+
+/* line 102, ../sass/main.scss */
+.container {
+  padding: 5% 20%;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* line 108, ../sass/main.scss */
+#pulse {
+  width: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+/* line 113, ../sass/main.scss */
+#pulse i {
+  border: 0px;
+}
+
+/* line 118, ../sass/main.scss */
+#quote {
+  background-color: transparent;
+  z-index: 2;
+}
+
+/* line 123, ../sass/main.scss */
+#quote-container {
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* line 130, ../sass/main.scss */
+.col {
+  display: inline-block;
+  padding: 20px;
+  width: 200px;
+  vertical-align: top;
+}

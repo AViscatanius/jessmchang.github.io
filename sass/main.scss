@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src: url('../fonts/ProximaNova-Light.otf');
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Regular.otf');
+}
+
+$primary-font-family: 'Montserrat', 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial;
+$secondary-font-family: 'ProximaNova-Light', 'Helvetica Neue', Helvetica, Arial;
+$serif-font-family: 'Georgia', 'Times New Roman', sans-serif;
+$sans-serif-font-family: 'Helvetiva Neue', Helvetica, Arial, serif;
+
+$primary-color: #9BB6A2;
+$secondary-color: #F6F4EF;
+
+$gray-dark: #3F3F3F;				//dark gray
+$subheader-text-color: $primary-color;
+$gray-light: #949494;					//light gray
+$gray-lighter: #D6D6D6;
+$white: #fff;
+
+h1 {
+	font-family: $primary-font-family;
+	color: $gray-dark;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: $primary-font-family;
+	color: $subheader-text-color;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+p {
+	font-family: $secondary-font-family;
+	color: $gray-light;
+	font-size: 15px;
+}
+
+i {
+	color: $primary-color;
+	font-size: 18px;
+	border-radius: 100%;
+	border: 3px solid $gray-lighter;
+	padding: 6px 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+i:hover {
+	background-color: $gray-lighter;
+	cursor: pointer;
+}
+
+.delay {
+	-webkit-animation-delay: .2s;
+}
+
+.delay-more {
+	-webkit-animation-delay: 1s;
+}
+
+.heading {
+	padding-bottom: 30px;
+}
+
+#intro {
+	background-color: $secondary-color;
+	min-height: 100%;
+	width: 100%;
+}
+
+#intro-container {
+	padding-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#about {
+	background-color: transparent;
+	z-index: 2;
+}
+
+.img-bg{
+	z-index: 1;
+	background: url("../images/congruent_pentagon.png") fixed;
+}
+
+#work {
+	background-color: $white;
+	img {
+		max-height: 70px;
+		padding-bottom: 20px;
+	}
+}
+
+.container {
+	padding: 5% 20%;
+	text-align: center;
+	line-height: 30px;
+}
+
+#pulse {
+	width: 53px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:10%;
+	i {
+		border: 0px;
+	}
+}
+
+#quote {
+	background-color: transparent;
+	z-index: 2;
+}
+
+#quote-container {
+	padding-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.col {
+	display: inline-block;
+	padding: 20px;
+	width: 200px;
+	vertical-align: top;
+}
+
